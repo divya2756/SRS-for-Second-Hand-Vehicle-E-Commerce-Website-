@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoTrade – Second-Hand Vehicles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="brand">AutoTrade</div>
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Buy</a>
+        <a href="#">Sell</a>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>India’s Trusted Second-Hand Vehicle Marketplace</h1>
+    <p>Buy & Sell Trending 2-Wheelers and 4-Wheelers</p>
+</section>
+
+<section class="filters">
+    <select>
+        <option>Vehicle Type</option>
+        <option>2-Wheeler</option>
+        <option>4-Wheeler</option>
+    </select>
+
+    <select>
+        <option>Fuel</option>
+        <option>Petrol</option>
+        <option>Diesel</option>
+        <option>Electric</option>
+    </select>
+
+    <select>
+        <option>Price Range</option>
+        <option>Below ₹1L</option>
+        <option>₹1–5L</option>
+        <option>₹5–10L</option>
+        <option>Above ₹10L</option>
+    </select>
+
+    <button>Search</button>
+</section>
+l
+<section class="vehicle-section">
+    <h2>Trending Vehicles</h2>
+
+    <div class="vehicle-grid" id="vehicleGrid">
+
+        <!-- 2 WHEELERS -->
+        <div class="vehicle-card">
+            <img src="https://s7ap1.scene7.com/is/image/hmcl/splendor-plus-nav?fmt=webp-alpha">
+            <div class="info">
+                <span class="badge bike">2-Wheeler</span>
+                <h3>Hero Splendor Plus</h3>
+                <p>2023 • Petrol • 6,000 km</p>
+                <h4>₹78,000</h4>
+                <button>View</button>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="https://cdn-s3.autocarindia.com/honda-bike/Activa%206G/_DSC8819.JPG?w=640&q=75">
+            <div class="info">
+                <span class="badge bike">2-Wheeler</span>
+                <h3>Honda Activa 6G</h3>
+                <p>2022 • Petrol • 9,000 km</p>
+                <h4>₹82,000</h4>
+                <button>View</button>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="https://images.91wheels.com/assets/b_images/gallery/royalenfield/classic-350/royalenfield-classic-350-0-1768628135.png">
+            <div class="info">
+                <span class="badge bike">2-Wheeler</span>
+                <h3>Royal Enfield Classic 350</h3>
+                <p>2022 • Petrol • 14,000 km</p>
+                <h4>₹1,65,000</h4>
+                <button>View</button>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="https://i.pinimg.com/236x/f9/94/aa/f994aaba2bc96fbd29d978585c09cbe8.jpg">
+            <div class="info">
+                <span class="badge bike">2-Wheeler</span>
+                <h3>RX100 (Classic)</h3>
+                <p>1998 • Petrol • 42,000 km</p>
+                <h4>₹95,000</h4>
+                <button>View</button>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="https://5.imimg.com/data5/RV/CK/XQ/SELLER-45461290/blue-vespa-vxl-125-scooter-500x500.jpg">
+            <div class="info">
+                <span class="badge bike">2-Wheeler</span>
+                <h3>Vespa VXL</h3>
+                <p>2022 • Petrol • 7,500 km</p>
+                <h4>₹1,10,000</h4>
+                <button>View</button>
+            </div>
+        </div>
+
+        <!-- 4 WHEELERS -->
+        <div class="vehicle-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/2022_Hyundai_Creta_1.6_Plus_%28Chile%29_front_view.jpg">
+            <div class="info">
+                <span class="badge car">4-Wheeler</span>
+                <h3>Hyundai Creta</h3>
+                <p>2022 • Diesel • 28,000 km</p>
+                <h4>₹10,20,000</h4>
+                <button>View</button>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIUu5h6xhykocplFpEg2T6BTc1Tz5cRufvuQ&s">
+            <div class="info">
+                <span class="badge car">4-Wheeler</span>
+                <h3>Honda City</h3>
+                <p>2021 • Petrol • 26,000 km</p>
+                <h4>₹8,50,000</h4>
+                <button>View</button>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="https://static.caronphone.com/public/brands/20/685/3200/3200_1759751947.webp">
+            <div class="info">
+                <span class="badge car">4-Wheeler</span>
+                <h3>Mahindra Thar</h3>
+                <p>2022 • Diesel • 20,000 km</p>
+                <h4>₹15,50,000</h4>
+                <button>View</button>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="https://imgd.aeplcdn.com/1920x1080/n/cw/ec/141867/nexon-exterior-right-front-three-quarter-79.png?isig=0&q=80&q=80">
+            <div class="info">
+                <span class="badge car">4-Wheeler</span>
+                <h3>Tata Nexon EV</h3>
+                <p>2023 • Electric • 12,000 km</p>
+                <h4>₹13,40,000</h4>
+                <button>View</button>
+            </div>
+        </div>
+        <div class="vehicle-card">
+    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Baleno/10492/1753944173342/exterior-image-164.jpg">
+    <div class="info">
+        <span class="badge car">4-Wheeler</span>
+        <h3>Maruti Suzuki Baleno</h3>
+        <p>2023 • Petrol • 15,000 km</p>
+        <h4>₹7,80,000</h4>
+        <button>View</button>
+    </div>
+</div>
+    <!-- Tata Tiago EV Card -->
+<div class="vehicle-card">
+    <img src="https://img.gaadicdn.com/images/car-images/large/Tata/Tiago/10655/1738151372122/225_Daytona-Grey_414141.jpg" alt="Tata Tiago EV">
+    <div class="info">
+        <span class="badge car">4-Wheeler</span>
+        <h3>Tata Tiago EV</h3>
+        <p>2023 • Electric • 15,500 km</p>
+        <h4>₹8,10,000</h4>
+        <button>View</button>
+    </div>
+</div>
+
+<!-- MG ZS EV Card -->
+<div class="vehicle-card">
+    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/MG/ZS-EV/6873/1612778753498/front-left-side-47.jpg" alt="MG ZS EV">
+    <div class="info">
+        <span class="badge car">4-Wheeler</span>
+        <h3>MG ZS EV</h3>
+        <p>2022 • Electric • 24,000 km</p>
+        <h4>₹14,75,000</h4>
+        <button>View</button>
+    </div>
+</div>
+
+<!-- Tata Tigor EV Card -->
+<div class="vehicle-card">
+    <img src="https://malikautoworld.com/wp-content/uploads/2024/02/Tigor-ev-02.jpg" alt="Tata Tigor EV">
+    <div class="info">
+        <span class="badge car">4-Wheeler</span>
+        <h3>Tata Tigor EV</h3>
+        <p>2021 • Electric • 31,000 km</p>
+        <h4>₹6,90,000</h4>
+        <button>View</button>
+    </div>
+</div>
+    <!-- Kia EV6 Card -->
+<div class="vehicle-card">
+    <img src="https://cimg0.ibsrv.net/ibimg/hgm/1920x1080-1/100/786/2022-kia-ev6_100786824.jpg" alt="Kia EV6">
+    <div class="info">
+        <span class="badge car">4-Wheeler</span>
+        <h3>Kia EV6</h3>
+        <p>2023 • Electric • 11,000 km</p>
+        <h4>₹39,50,000</h4>
+        <button>View</button>
+    </div>
+</div>
+
+<!-- Volvo EX30 Card -->
+<div class="vehicle-card">
+    <img src="https://cdn-s3.autocarindia.com/legacy/cdni/ExtraImages/20250924015255_Volvo_EX_30_Front_Quarter_Tracking_2.jpg" alt="Volvo EX30">
+    <div class="info">
+        <span class="badge car">4-Wheeler</span>
+        <h3>Volvo EX30</h3>
+        <p>2025 • Electric • 3,540 km</p>
+        <h4>₹39,13,000</h4>
+        <button>View</button>
+    </div>
+</div>
+    <!-- Ultraviolette F77 Card -->
+<div class="vehicle-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT928UGVK36UEvfPwVOKbJYsIkWbDFfRR0uRg&s" alt="Ultraviolette F77">
+    <div class="info">
+        <span class="badge bike">2-Wheeler</span>
+        <h3>Ultraviolette F77</h3>
+        <p>2024 • Electric • 8,500 km</p>
+        <h4>₹3,10,000</h4>
+        <button>View</button>
+    </div>
+</div>
+
+<!-- Ola S1 Pro Card -->
+<div class="vehicle-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8H0mwBCtx59jJI3hYN81kyzweK5L5OrEqQ&s" alt="Ola S1 Pro">
+    <div class="info">
+        <span class="badge bike">2-Wheeler</span>
+        <h3>Ola S1 Pro</h3>
+        <p>2023 • Electric • 14,000 km</p>
+        <h4>₹85,000</h4>
+        <button>View</button>
+    </div>
+</div>
+
+<!-- Ather 450X Card -->
+<div class="vehicle-card">
+    <img src="https://assets.otocapital.in/production/space-grey-ather-450x-image.webp" alt="Ather 450X">
+    <div class="info">
+        <span class="badge bike">2-Wheeler</span>
+        <h3>Ather 450X</h3>
+        <p>2023 • Electric • 11,500 km</p>
+        <h4>₹1,05,000</h4>
+        <button>View</button>
+    </div>
+</div>
+
+<!-- TVS iQube Card -->
+<div class="vehicle-card">
+    <img src="https://img-cdn.evfy.in/products/tvs-iqube-st-model.jpg" alt="TVS iQube">
+    <div class="info">
+        <span class="badge bike">2-Wheeler</span>
+        <h3>TVS iQube</h3>
+        <p>2022 • Electric • 19,000 km</p>
+        <h4>₹78,000</h4>
+        <button>View</button>
+    </div>
+</div>
+
+<!-- Royal Enfield Flying Flea C6 Card -->
+<div class="vehicle-card">
+    <img src="https://c.ndtvimg.com/2026-04/3vd99fos_ff-c6_625x300_09_April_26.jpg?im=FitAndFill,algorithm=dnn,width=400,height=225" alt="Royal Enfield Flying Flea C6">
+    <div class="info">
+        <span class="badge bike">2-Wheeler</span>
+        <h3>Royal Enfield Flying Flea C6</h3>
+        <p>2026 • Electric • 500 km</p>
+        <h4>₹2,79,000</h4>
+        <button>View</button>
+    </div>
+</div>
+
+
+    </div>
+</section>
+<!-- ADD VEHICLE -->
+<section class="add-vehicle">
+
+    <h2>Add Vehicle</h2>
+
+    <input type="text" id="vehicleName" placeholder="Vehicle Name">
+
+    <input type="text" id="vehiclePrice" placeholder="Price">
+
+    <input type="text" id="vehicleImage" placeholder="Image URL">
+
+    <button onclick="addVehicle()">Add Vehicle</button>
+
+</section>
+
+<footer class="footer">
+    <p>© 2026 AutoTrade | Powered by AWS</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
